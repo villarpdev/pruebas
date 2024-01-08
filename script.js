@@ -23,7 +23,7 @@ var textoObtenido;
             cargarTextoDesdeArchivo();
 
             // Añadir la clase de animación de shake al regalo
-            imagenRegalo.classList.add('regalo-shake');
+            imagenRegalo.classList.add('shake-bottom');
 
             // Esperar a que termine la animación de shake antes de iniciar la animación de ampliación
             setTimeout(function () {
